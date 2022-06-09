@@ -58,6 +58,10 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\PadleControl.cs" />
     <Compile Include="Assets\Scripts\BallControl.cs" />
+    <Compile Include="Assets\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\ScoreManager.cs" />
+    <Compile Include="Assets\Scripts\ScoreController.cs" />
+    <Compile Include="Assets\Scripts\GoalController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

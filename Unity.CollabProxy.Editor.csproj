@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F5583526-B6B7-6B37-1344-99A0E399157E}</ProjectGuid>
+    <ProjectGuid>{7FBACFE7-A362-F505-10DE-505F3F621756}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.CollabProxy.Editor</AssemblyName>
@@ -807,19 +807,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
-      <Project>{DF7F1AC9-ED2F-8104-56EA-2E58523594BC}</Project>
+      <Project>{413BF050-335C-E27E-3115-A3A9DD84DD93}</Project>
       <Name>Unity.PlasticSCM.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Editor.csproj">
-      <Project>{CE578C18-0DE5-CE36-D5DF-DB747BDD7F4F}</Project>
+      <Project>{5861755B-C40C-BE88-F3BD-4951EDBD1ECF}</Project>
       <Name>Unity.Services.Core.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{6ABAC334-4B3E-1B06-0D03-2E5DC73180BC}</Project>
+      <Project>{4E9F4874-BD46-CF7A-0F6A-A7E6489D0180}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{42BFC30F-36B6-71C4-FF52-6FCDD7E3B893}</Project>
+      <Project>{C8642116-C21F-BBE3-A8EC-134D8D54C106}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

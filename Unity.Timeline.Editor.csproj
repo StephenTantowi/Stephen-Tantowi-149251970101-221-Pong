@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{59055B9C-C77E-8707-7209-07473B66B282}</ProjectGuid>
+    <ProjectGuid>{1FBE3D00-40A0-6530-83CE-8AFA83DFD4DA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Timeline.Editor</AssemblyName>
@@ -157,8 +157,8 @@
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Editor\inspectors\ClipInspector\ClipInspector.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Editor\Animation\AnimationClipExtensions.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Editor\treeview\TrackGui\TrackResizeHandle.cs" />
-    <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Editor\Manipulators\Move\IMoveItemMode.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Editor\treeview\ManipulationsTracks.cs" />
+    <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Editor\Manipulators\Move\IMoveItemMode.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Editor\Utilities\DisplayNameHelper.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Editor\Window\TimelineWindow_PreviewPlayMode.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Editor\Window\Modes\TimelineMode.cs" />
@@ -923,15 +923,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{121EF8C2-0D60-22B3-F6AA-FE1168493AC1}</Project>
+      <Project>{6CD08454-DFD1-80E1-6848-58917A1268E0}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{6ABAC334-4B3E-1B06-0D03-2E5DC73180BC}</Project>
+      <Project>{4E9F4874-BD46-CF7A-0F6A-A7E6489D0180}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{42BFC30F-36B6-71C4-FF52-6FCDD7E3B893}</Project>
+      <Project>{C8642116-C21F-BBE3-A8EC-134D8D54C106}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

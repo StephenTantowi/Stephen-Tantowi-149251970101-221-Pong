@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{DF7F1AC9-ED2F-8104-56EA-2E58523594BC}</ProjectGuid>
+    <ProjectGuid>{413BF050-335C-E27E-3115-A3A9DD84DD93}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.PlasticSCM.Editor</AssemblyName>
@@ -61,8 +61,8 @@
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.17\Editor\PlasticSCM\Configuration\CloudEdition\Welcome\AutoLogin.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.17\Editor\PlasticSCM\PlasticProjectSettingsProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.17\Editor\PlasticSCM\UI\Tree\TreeViewItemIds.cs" />
-    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.17\Editor\PlasticSCM\Views\IncomingChanges\Gluon\IncomingChangesTab.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.17\Editor\PlasticSCM\Developer\UpdateReport\UpdateReportDialog.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.17\Editor\PlasticSCM\Views\IncomingChanges\Gluon\IncomingChangesTab.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.17\Editor\PlasticSCM\PlasticApp.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.17\Editor\PlasticSCM\UI\Avatar\ApplyCircleMask.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.17\Editor\PlasticSCM\GetRelativePath.cs" />
@@ -147,8 +147,8 @@
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.17\Editor\PlasticSCM\AssetMenu\AssetFilesFilterPatternsMenuBuilder.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.17\Editor\PlasticSCM\Views\Changesets\LaunchDiffOperations.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.17\Editor\PlasticSCM\Views\PendingChanges\Dialogs\DependenciesDialog.cs" />
-    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.17\Editor\PlasticSCM\Views\IncomingChanges\Developer\ChangeTreeViewItem.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.17\Editor\PlasticSCM\WebApi\CredentialsResponse.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.17\Editor\PlasticSCM\Views\IncomingChanges\Developer\ChangeTreeViewItem.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.17\Editor\PlasticSCM\AssetsUtils\AssetsPath.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.17\Editor\PlasticSCM\Views\PendingChanges\PendingChangesSelection.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.17\Editor\PlasticSCM\UI\UIElements\LoadingSpinner.cs" />
@@ -308,8 +308,8 @@
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.17\Editor\PlasticSCM\UI\Progress\DrawProgressForOperations.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.17\Editor\PlasticSCM\CollabMigration\MigrationProgressRender.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.17\Editor\PlasticSCM\Tool\FindTool.cs" />
-    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.17\Editor\PlasticSCM\Views\Branch\Dialogs\RenameBranchDialog.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.17\Editor\PlasticSCM\CloudProjectDownloader\ParseArguments.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.17\Editor\PlasticSCM\Views\Branch\Dialogs\RenameBranchDialog.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.17\Editor\PlasticSCM\CloudProjectDownloader\CommandLineArguments.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.17\Editor\PlasticSCM\Views\PendingChanges\PendingChangesTreeHeaderState.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.17\Editor\PlasticSCM\Views\CreateWorkspace\Dialogs\CreateRepositoryDialog.cs" />
@@ -970,11 +970,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{6ABAC334-4B3E-1B06-0D03-2E5DC73180BC}</Project>
+      <Project>{4E9F4874-BD46-CF7A-0F6A-A7E6489D0180}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{42BFC30F-36B6-71C4-FF52-6FCDD7E3B893}</Project>
+      <Project>{C8642116-C21F-BBE3-A8EC-134D8D54C106}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
