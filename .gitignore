@@ -3,7 +3,6 @@ Logs/*
 Temp/*
 .vs/*
 obj/*
-
 .vsconfig
 *.sln
 .vscode/settings.json
