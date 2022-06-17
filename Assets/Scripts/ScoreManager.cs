@@ -9,10 +9,16 @@ public class ScoreManager : MonoBehaviour
     public int leftScore;
     public int maxScore;
     public BallControl ball;
+    public PadleControl paddleR;
+    public PadleControl paddleL;
 
     public void addRightScore(int increment)
     {
         ball.ResetBall();
+        paddleL.ResetSpeed();
+        paddleR.ResetSpeed();
+        paddleL.ResetLength();
+        paddleR.ResetLength();
         rightScore += increment;
         if(rightScore >= maxScore)
         {
@@ -22,6 +28,10 @@ public class ScoreManager : MonoBehaviour
     public void addLeftScore(int increment)
     {
         ball.ResetBall();
+        paddleL.ResetSpeed();
+        paddleR.ResetSpeed();
+        paddleL.ResetLength();
+        paddleR.ResetLength();
         leftScore += increment;
         if (leftScore >= maxScore)
         {

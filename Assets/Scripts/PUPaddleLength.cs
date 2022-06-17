@@ -2,29 +2,30 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PUSpeedUPController : MonoBehaviour
+public class PUPaddleLength : MonoBehaviour
 {
     public Collider2D ball;
-    public float magnitute;
+    public PadleControl paddleLeft;
+    public PadleControl paddleRight;
     public PowerUpManager manager;
-    private float timer = 5; 
+    private float timer = 5;
 
-
-    private void Update()
+    // Update is called once per frame
+    void Update()
     {
         timer -= Time.deltaTime;
-        if(timer <= 0)
+        if (timer <= 0)
         {
             manager.RemovePowerUp(gameObject);
-        }    
+        }
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision == ball)
         {
-            ball.GetComponent<BallControl>().ActivateSpeedUp(magnitute);
+            paddleLeft.ActiveLengthUp();
+            paddleRight.ActiveLengthUp();
             manager.RemovePowerUp(gameObject);
         }
     }
-
 }

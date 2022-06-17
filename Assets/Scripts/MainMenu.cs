@@ -14,4 +14,13 @@ public class MainMenu : MonoBehaviour
     {
         Debug.Log("Created by Stephen Tantowi - 149251970101-221");
     }
+
+    public void BackToMainMenu()
+    {
+        SceneManager.LoadScene("Main Menu");
+    }    
+    public void Credit()
+    {
+        SceneManager.LoadScene("Credit");
+    }
 }
