@@ -138,7 +138,7 @@ GameObject:
   - component: {fileID: 32481921}
   m_Layer: 0
   m_Name: Padle kiri
-  m_TagString: Untagged
+  m_TagString: LeftPaddle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -861,6 +861,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: {x: 2, y: 3}
   resetPosition: {x: 0, y: 0}
+  left: 0
 --- !u!50 &826839055
 Rigidbody2D:
   serializedVersion: 4
@@ -1377,7 +1378,7 @@ GameObject:
   - component: {fileID: 1191780648}
   m_Layer: 0
   m_Name: Padle kanan
-  m_TagString: Untagged
+  m_TagString: RightPaddle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

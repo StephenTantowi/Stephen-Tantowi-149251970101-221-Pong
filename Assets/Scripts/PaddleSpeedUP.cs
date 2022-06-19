@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class PaddleSpeedUP : MonoBehaviour
 {
-    public Collider2D ball;
     public PowerUpManager manager;
     private float timer = 5;
     public PadleControl paddleLeft;
     public PadleControl paddleRight;
+    public BallControl ball;
 
     // Update is called once per frame
     void Update()
@@ -23,8 +23,14 @@ public class PaddleSpeedUP : MonoBehaviour
     {
         if (collision == ball)
         {
-            paddleLeft.ActiveSpeedUp();
-            paddleRight.ActiveSpeedUp();
+            if(ball.left == true)
+            {
+                paddleLeft.ActiveSpeedUp();
+            }
+            else if(ball.left == false)
+            {
+                paddleRight.ActiveSpeedUp();
+            }
             manager.RemovePowerUp(gameObject);
         }
     }

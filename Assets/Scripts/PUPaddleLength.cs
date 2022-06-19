@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class PUPaddleLength : MonoBehaviour
 {
-    public Collider2D ball;
     public PadleControl paddleLeft;
     public PadleControl paddleRight;
     public PowerUpManager manager;
     private float timer = 5;
+    public BallControl ball;
 
     // Update is called once per frame
     void Update()
@@ -23,8 +23,15 @@ public class PUPaddleLength : MonoBehaviour
     {
         if(collision == ball)
         {
-            paddleLeft.ActiveLengthUp();
-            paddleRight.ActiveLengthUp();
+            if(ball.left == true)
+            {
+                paddleLeft.ActiveLengthUp();
+            }
+            else if(ball.left == false)
+            {
+                paddleRight.ActiveLengthUp();
+            }
+
             manager.RemovePowerUp(gameObject);
         }
     }

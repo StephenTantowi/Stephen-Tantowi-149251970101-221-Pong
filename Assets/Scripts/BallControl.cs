@@ -7,7 +7,7 @@ public class BallControl : MonoBehaviour
     public Vector2 speed;
     private Rigidbody2D rig;
     public Vector2 resetPosition;
-
+    public bool left = false;
     private void Start()
     {
         rig = GetComponent<Rigidbody2D>();
@@ -22,5 +22,16 @@ public class BallControl : MonoBehaviour
     {
         rig.velocity *= magnitute;
     }
-    
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.CompareTag("LeftPaddle"))
+        {
+            left = true;
+        }
+        else if(collision.gameObject.CompareTag("RightPaddle"))
+        {
+            left = false;
+        }
+    }
 }
